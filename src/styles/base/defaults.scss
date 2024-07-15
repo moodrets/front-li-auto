@@ -1,0 +1,15 @@
+* {
+    @apply font-base;
+}
+
+body {
+    @apply text-[14px] leading-normal min-w-[var(--app-min-width)];
+}
+
+.centered {
+    @apply w-[var(--container-width)] max-w-full px-5 mx-auto;
+}
+
+a:not([class]) {
+    @apply no-underline hover:underline;
+}

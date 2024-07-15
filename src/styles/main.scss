@@ -1,0 +1,13 @@
+// base
+@tailwind base;
+@import '@/styles/base/fonts';
+@import '@/styles/base/root';
+@import '@/styles/base/defaults';
+
+// elements
+@import '@/styles/elements/svg-icon';
+@import '@/styles/elements/decor-link';
+@import '@/styles/elements/button';
+
+@tailwind components;
+@tailwind utilities;

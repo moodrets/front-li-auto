@@ -1,0 +1,20 @@
+.decor-link {
+    @apply relative 
+        no-underline
+        inline-flex
+        items-center
+        before:content-['']
+        before:absolute
+        before:bottom-0
+        before:left-0
+        before:right-0
+        before:h-[2px]
+        before:bg-current
+        before:transition-all
+        before:duration-300
+        before:scale-0
+        before:rounded-sm
+        hover:no-underline
+        hover:before:scale-100
+        [&.is-active]:before:scale-100;
+}

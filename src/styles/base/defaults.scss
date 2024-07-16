@@ -2,8 +2,12 @@
     @apply font-base;
 }
 
+html {
+    @apply relative;
+}
+
 body {
-    @apply text-[14px] leading-normal min-w-[var(--app-min-width)];
+    @apply relative text-[14px] leading-normal min-w-[var(--app-min-width)];
 }
 
 .centered {
@@ -16,7 +20,7 @@ a:not([class]) {
 
 h1,
 .h1 {
-    @apply text-[30px] 
+    @apply text-[32px] 
         mb-5 
         font-bold
         leading-[1.3] 

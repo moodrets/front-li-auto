@@ -1,5 +1,5 @@
 <template>
-    <header class="app-header text-content py-5 md:py-6 lg:py-12">
+    <header class="app-header shadow-lg text-base py-5 md:py-6 lg:py-12">
         <div class="centered flex items-center justify-between">
             <a href="#">
                 <img class="max-w-[120px] md:max-w-[220px]" src="/img/header-logo.png" alt="" />

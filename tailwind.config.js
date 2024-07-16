@@ -11,7 +11,7 @@ export default {
                 'brand-dark': '#5C4636',
                 secondary: '#4C5733',
                 dark: '#2E2E2E',
-                content: '#443E3E',
+                base: '#443E3E',
             },
         },
     },

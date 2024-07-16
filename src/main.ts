@@ -7,9 +7,11 @@ import App from '@/App.vue'
 
 // vue global components
 import MobileMenuTrigger from '@/components/common/MobileMenuTrigger.vue'
-import SocialList from '@/components/common/SocialList.vue'
+import SocialPopover from '@/components/common/SocialPopover.vue'
+import SubscribeForm from '@/components/common/SubscribeForm.vue'
 
 createApp(App)
     .component('mobiletrigger', MobileMenuTrigger)
-    .component('sociallist', SocialList)
+    .component('socialpopover', SocialPopover)
+    .component('subscribeform', SubscribeForm)
     .mount('#app')

@@ -13,3 +13,16 @@ body {
 a:not([class]) {
     @apply no-underline hover:underline;
 }
+
+h1 {
+    @apply text-[28px] 
+        mb-5 
+        font-bold 
+        md:text-[48px] 
+        lg:text-[64px] 
+        lg:mb-8;
+}
+
+.backface-cover {
+    @apply relative;
+}

@@ -1,7 +1,7 @@
 <template>
     <footer class="app-footer bg-[#161616] py-8 lg:py-20 text-white">
         <div class="centered">
-            <div class="flex items-center justify-between mb-12 lg:mb-20">
+            <div class="flex items-center justify-between mb-12 lg:mb-14">
                 <a href="#">
                     <img class="max-w-[120px] md:max-w-full" src="/img/footer-logo.svg" alt="" />
                 </a>
@@ -27,6 +27,10 @@
                             <a href="#" class="decor-link">{{ menuItem.title }}</a>
                         </li>
                     </ul>
+                </div>
+                <div class="mt-10">
+                    <div class="mb-4 text-[20px] font-bold">Мы держим вас в курсе</div>
+                    <subscribeform class="md:w-[340px]"></subscribeform>
                 </div>
             </div>
             <div

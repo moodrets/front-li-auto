@@ -11,13 +11,14 @@
 
 <style lang="scss">
 .social-popover {
-    @apply fixed right-4 bottom-4 md:bottom-16 xl:right-10 xl:bottom-10;
+    @apply fixed right-4 z-[50] bottom-4 md:bottom-16 xl:right-10 xl:bottom-10;
 
     &__trigger {
         @apply p-3
             cursor-pointer
             bg-white
             rounded-full
+            shadow-lg
             xl:p-4;
 
         .svg-icon {

@@ -1,6 +1,6 @@
 <template>
     <section
-        class="app-main-block text-white flex flex-col items-center justify-center text-center bg-cover bg-center bg-no-repeat py-10 min-h-[520px] lg:py-24 lg:min-h-[760px]"
+        class="app-main-block backface-cover backface-cover--dark text-white flex flex-col items-center justify-center text-center bg-cover bg-center bg-no-repeat py-10 min-h-[520px] lg:py-24 lg:min-h-[760px]"
         style="background-image: url(/img/main-block-bg.png)"
     >
         <div class="centered">

@@ -1,9 +1,13 @@
 <template>
-    <footer class="app-footer bg-[#161616] py-8 lg:py-20 text-white">
+    <footer class="app-footer bg-[#161616] py-8 lg:py-20 text-white" data-animated-block="fadeInUp">
         <div class="centered">
             <div class="flex items-center justify-between mb-12 lg:mb-14">
                 <a href="#">
-                    <img class="max-w-[120px] md:max-w-full" src="/img/footer-logo.svg" alt="" />
+                    <img
+                        class="max-w-[120px] md:max-w-[184px]"
+                        :src="`${basePath}img/footer-logo.svg`"
+                        alt=""
+                    />
                 </a>
                 <a href="#" class="app-button app-button--light">Скачать прайс</a>
             </div>
@@ -49,5 +53,5 @@
 </template>
 
 <script setup lang="ts">
-import { carList, mainMenu, otherMenu } from '@/data/common'
+import { basePath, carList, mainMenu, otherMenu } from '@/data/common'
 </script>

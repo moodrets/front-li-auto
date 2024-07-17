@@ -6,9 +6,13 @@
 
 // elements
 @import '@/styles/elements/svg-icon';
+@import '@/styles/elements/spinner';
 @import '@/styles/elements/decor-link';
 @import '@/styles/elements/button';
 @import '@/styles/elements/forms';
+@import '@/styles/elements/sliders';
+@import '@/styles/elements/block-animations';
 
+// utils
 @tailwind components;
 @tailwind utilities;

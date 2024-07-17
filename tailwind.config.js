@@ -12,6 +12,8 @@ export default {
                 secondary: '#4C5733',
                 dark: '#2E2E2E',
                 base: '#443E3E',
+                dirt: '#5B5B5B',
+                warning: '#FFA033',
             },
         },
     },

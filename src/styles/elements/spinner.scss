@@ -1,0 +1,10 @@
+.spinner {
+    @apply w-12
+        h-12
+        border-4
+        border-current
+        border-b-transparent
+        rounded-full
+        block
+        animate-spin;
+}

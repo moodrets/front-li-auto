@@ -1,7 +1,8 @@
 <template>
     <section
         class="py-10 lg:py-24 bg-cover bg-center bg-no-repeat backface-cover"
-        style="background-image: url(/img/faq-bg.jpg)"
+        :style="`background-image: url(${basePath}img/faq-bg.jpg)`"
+        data-animated-block="fadeInUp"
     >
         <div class="centered">
             <div class="h1 text-center">Что вы хотели знать о Liхiang</div>
@@ -43,3 +44,7 @@
         </div>
     </section>
 </template>
+
+<script setup lang="ts">
+import { basePath } from '@/data/common'
+</script>

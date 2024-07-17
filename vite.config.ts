@@ -7,7 +7,7 @@ const __dirname = url.fileURLToPath(new URL('.', import.meta.url))
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-    base: mode === 'development' ? '/' : '/front-osvetim/',
+    base: mode === 'development' ? '/' : '/front-li-auto/',
     plugins: [vue()],
     resolve: {
         alias: {

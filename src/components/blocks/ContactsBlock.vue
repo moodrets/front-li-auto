@@ -1,5 +1,5 @@
 <template>
-    <section class="text-center py-10 lg:py-24 text-black">
+    <section class="text-center py-10 lg:py-24 text-black" data-animated-block="fadeInUp">
         <div class="centered flex flex-col items-center">
             <div class="h1">Контакты</div>
             <a href="#" class="text-[18px] lg:text-[26px] font-bold">8 900 009 09 09</a>

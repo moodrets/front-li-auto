@@ -1,0 +1,63 @@
+.slider-control {
+    @apply absolute
+    select-none
+    cursor-pointer
+    flex-none
+    z-10
+    top-1/2
+    -translate-y-1/2;
+
+    .svg-icon {
+        @apply block;
+    }
+
+    &--static {
+        @apply static top-auto translate-y-0;
+    }
+
+    &--prev {
+        @apply left-0;
+    }
+
+    &--next {
+        @apply right-0;
+    }
+
+    &[class*='disabled'] {
+        @apply pointer-events-none opacity-50;
+    }
+}
+
+.slider-pagination {
+    @apply flex 
+    justify-center 
+    gap-3
+    select-none
+    !w-auto;
+
+    &__item {
+        @apply w-4 
+        h-4
+        flex-none
+        cursor-pointer 
+        rounded-full
+        opacity-50
+        bg-current;
+
+        &.is-active {
+            @apply opacity-100;
+        }
+    }
+}
+
+.reviews-slider {
+    .swiper-slide {
+        @apply transition-transform
+        duration-300
+        scale-[0.8];
+
+        &.swiper-slide-active {
+            @apply scale-100;
+        }
+    }
+}

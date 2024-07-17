@@ -1,14 +1,18 @@
 <template>
     <section class="py-10 lg:py-24 text-center">
         <div class="centered">
-            <div class="h1 mb-10">
+            <div class="h1 mb-10" data-animated-block="zoomIn">
                 Выгодные условия сотрудничества<br />
                 для наших клиентов
             </div>
             <div class="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
-                <div v-for="(adv, advIndex) in advantages" :key="advIndex">
+                <div
+                    data-animated-block="fadeInRight"
+                    v-for="(adv, advIndex) in advantages"
+                    :key="advIndex"
+                >
                     <div class="flex justify-center mb-4">
-                        <img :src="adv.img" alt="" />
+                        <img class="max-w-[64px] lg:max-w-[80px]" :src="adv.img" alt="" />
                     </div>
                     <div class="mb-4 text-[20px] font-medium lg:text-[24px]">
                         {{ adv.title }}

@@ -75,7 +75,7 @@ onUpdated(() => {
         top-0
         bottom-0
         bg-dark
-        bg-opacity-50
+        bg-opacity-60
         backdrop-blur-sm
         overflow-y-auto
         p-5
@@ -103,7 +103,7 @@ onUpdated(() => {
             m-auto
             max-w-full
             w-[--app-modal-width]
-            rounded-lg
+            rounded-xl
             bg-white
             p-5
             transition-all

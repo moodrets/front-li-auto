@@ -4,6 +4,7 @@ export function initScrollAnimate() {
             entries.forEach((entry) => {
                 if (entry.isIntersecting) {
                     entry.target.classList.add('is-inview')
+                    observer.unobserve(entry.target)
                 } else {
                     entry.target.classList.remove('is-inview')
                 }

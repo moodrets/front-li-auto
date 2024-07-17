@@ -1,17 +1,24 @@
 <template>
     <AppHeader></AppHeader>
-    <MainBlock></MainBlock>
-    <PresentBlock></PresentBlock>
-    <Partners></Partners>
-    <Advantages></Advantages>
-    <Reviews></Reviews>
-    <CallbackFormBlock></CallbackFormBlock>
-    <ContactsBlock></ContactsBlock>
-    <FAQ></FAQ>
-    <AppFooter></AppFooter>
-    <SvgSprite></SvgSprite>
+    <div class="overflow-hidden">
+        <MainBlock></MainBlock>
+        <PresentBlock></PresentBlock>
+        <Partners></Partners>
+        <Advantages></Advantages>
+        <Reviews></Reviews>
+        <CallbackFormBlock></CallbackFormBlock>
+        <ContactsBlock></ContactsBlock>
+        <FAQ></FAQ>
+        <AppFooter></AppFooter>
+    </div>
     <socialpopover></socialpopover>
     <Modals></Modals>
+    <offcanvas name="mobileMenu">
+        <div class="mb-8 sm:hidden">
+            <a href="#" class="text-[18px] font-bold">+7 123 456 13 57</a>
+        </div>
+    </offcanvas>
+    <SvgSprite></SvgSprite>
 </template>
 
 <script setup lang="ts">

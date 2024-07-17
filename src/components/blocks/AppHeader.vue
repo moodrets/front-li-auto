@@ -1,5 +1,7 @@
 <template>
-    <header class="app-header shadow-lg text-base py-5 md:py-6 lg:py-12">
+    <header
+        class="app-header sticky z-[80] top-0 bg-white shadow-lg text-base py-5 md:py-6 lg:py-12 overflow-hidden"
+    >
         <div class="centered flex items-center justify-between">
             <a href="#" data-animated-block="fadeInRight">
                 <img
@@ -14,7 +16,9 @@
                 </li>
             </ul>
             <div class="flex items-center gap-5" data-animated-block="fadeInLeft">
-                <a href="#" class="hidden text-[18px] font-bold sm:block">+7 123 456 13 57</a>
+                <div class="hidden sm:block">
+                    <a href="#" class="text-[18px] font-bold">+7 123 456 13 57</a>
+                </div>
                 <mobiletrigger class="lg:hidden"></mobiletrigger>
             </div>
         </div>

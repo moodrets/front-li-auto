@@ -43,8 +43,8 @@ import { reactive, computed } from 'vue'
 
 const props = withDefaults(
     defineProps<{
-        theme: 'light' | 'dark' | ''
-        placement: 'block' | 'modal'
+        theme?: 'light' | 'dark' | ''
+        placement?: 'block' | 'modal'
     }>(),
     {
         placement: 'block',

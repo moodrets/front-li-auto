@@ -42,7 +42,9 @@
             >
                 <div>© 2024 REtstudio.All right reserved</div>
                 <div class="md:ml-auto">
-                    <a href="#" class="decor-link">Политика конфеденциальности</a>
+                    <a href="#" class="decor-link" v-modal-call="{ name: 'politics' }"
+                        >Политика конфеденциальности</a
+                    >
                 </div>
                 <div>
                     <a href="#" class="decor-link">Правовая информация</a>

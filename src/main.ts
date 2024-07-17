@@ -21,12 +21,14 @@ import SubscribeForm from '@/components/common/SubscribeForm.vue'
 import Accordion from '@/components/common/Accordion.vue'
 import CallbackForm from '@/components/common/CallbackForm.vue'
 import Modal from '@/components/common/Modal.vue'
+import Offcanvas from '@/components/common/Offcanvas.vue'
 
 // vue app
 createApp(App)
     .directive('scroll-to', ScrollToDirective)
     .directive('modal-call', ModalDirective)
     .component('modal', Modal)
+    .component('offcanvas', Offcanvas)
     .component('callbackform', CallbackForm)
     .component('accordion', Accordion)
     .component('mobiletrigger', MobileMenuTrigger)

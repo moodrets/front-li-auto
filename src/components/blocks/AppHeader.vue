@@ -5,8 +5,8 @@
         <div class="centered flex items-center justify-between">
             <a href="#" data-animated-block="fadeInRight">
                 <img
-                    class="max-w-[120px] md:max-w-[220px]"
-                    :src="`${basePath}img/header-logo.svg`"
+                    class="max-w-[140px] md:max-w-[220px]"
+                    :src="`${basePath}img/new-logo-header.svg`"
                     alt=""
                 />
             </a>

@@ -12,6 +12,7 @@
     },
     "dependencies": {
         "@fontsource/poppins": "^5.0.14",
+        "baguettebox.js": "^1.12.0",
         "swiper": "^11.1.5",
         "vue": "^3.4.29"
     },

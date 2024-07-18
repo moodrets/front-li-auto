@@ -37,5 +37,5 @@
 [data-animated-block].is-inview {
     opacity: 1;
     visibility: visible;
-    transform: translate(0);
+    transform: translate(0) scale(1);
 }

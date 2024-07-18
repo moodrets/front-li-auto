@@ -13,15 +13,12 @@
         before:bg-current
         before:transition-all
         before:duration-300
-        before:scale-0
-        before:translate-y-[5px]
+        before:scale-x-0
         before:rounded-sm
         hover:no-underline
-        hover:before:scale-100
-        hover:before:translate-y-0
+        hover:before:scale-x-100
         focus-visible:outline-current
         focus-visible:outline-dashed
         focus-visible:outline-offset-4
-        [&.is-active]:before:scale-100
-        [&.is-active]:before:translate-y-0;
+        [&.is-active]:before:scale-x-100;
 }

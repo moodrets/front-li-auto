@@ -37,7 +37,7 @@ const isOpen = ref<boolean>(false)
 
 <style lang="scss">
 .social-popover {
-    @apply fixed right-4 z-[50] bottom-4 md:bottom-16 xl:right-10 xl:bottom-10;
+    @apply fixed right-4 z-[50] bottom-4 md:bottom-16 xl:bottom-6 xl:right-6;
 
     &__list {
         @apply absolute 
@@ -66,7 +66,7 @@ const isOpen = ref<boolean>(false)
             transition-all
             duration-300
             size-[50px]
-            lg:size-[70px];
+            xl:size-[70px];
 
         .svg-icon {
             @apply size-[60%];

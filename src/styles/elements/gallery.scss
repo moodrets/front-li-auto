@@ -1,0 +1,48 @@
+.gallery-list {
+    @apply text-[0] md:gap-0 md:columns-2 lg:columns-3 xl:columns-4;
+}
+
+.gallery-item {
+    $this: &;
+
+    @apply inline-block
+        relative
+        overflow-hidden;
+
+    img {
+        @apply transition-all
+        duration-300;
+    }
+
+    &__cover {
+        @apply absolute
+        left-0
+        right-0
+        top-0
+        bottom-0
+        z-10
+        text-center
+        bg-black
+        bg-opacity-60
+        transition-all
+        duration-300
+        opacity-0
+        pointer-events-none
+        flex
+        flex-col
+        items-center
+        justify-center
+        text-white
+        p-6;
+    }
+
+    &:hover {
+        img {
+            @apply scale-[1.06];
+        }
+
+        #{$this}__cover {
+            @apply opacity-100;
+        }
+    }
+}

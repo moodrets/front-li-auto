@@ -99,3 +99,92 @@ export const reviewsList = [
         text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam adipisci vitae quasi fugit quam similique laborum, odit animi aliquam beatae culpa atque alias rem sint ea nam sed. Obcaecati, quam.',
     },
 ]
+
+export const modelsList = [
+    {
+        img: `${basePath}img/model-1.jpg`,
+        title: 'Li L6',
+    },
+    {
+        img: `${basePath}img/model-2.jpg`,
+        title: 'Li L7',
+    },
+    {
+        img: `${basePath}img/model-3.jpg`,
+        title: 'Li L8',
+    },
+    {
+        img: `${basePath}img/model-4.jpg`,
+        title: 'Li L9',
+    },
+    {
+        img: `${basePath}img/model-5.jpg`,
+        title: 'Li MEGA',
+    },
+]
+
+export const galleryList = [
+    {
+        img: `${basePath}img/gallery-pic-1.jpg`,
+    },
+    {
+        img: `${basePath}img/gallery-pic-2.jpg`,
+    },
+    {
+        img: `${basePath}img/gallery-pic-3.jpg`,
+    },
+    {
+        img: `${basePath}img/gallery-pic-4.jpg`,
+    },
+    {
+        img: `${basePath}img/gallery-pic-5.jpg`,
+    },
+    {
+        img: `${basePath}img/gallery-pic-1.jpg`,
+    },
+    {
+        img: `${basePath}img/gallery-pic-2.jpg`,
+    },
+    {
+        img: `${basePath}img/gallery-pic-3.jpg`,
+    },
+    {
+        img: `${basePath}img/gallery-pic-4.jpg`,
+    },
+    {
+        img: `${basePath}img/gallery-pic-5.jpg`,
+    },
+]
+
+export const videoList = [
+    {
+        src: `${basePath}video/video-4.mp4`,
+    },
+    {
+        src: `${basePath}video/video-5.mp4`,
+    },
+    {
+        src: `${basePath}video/video-1.mp4`,
+    },
+    {
+        src: `${basePath}video/video-2.mp4`,
+    },
+    {
+        src: `${basePath}video/video-3.mp4`,
+    },
+    {
+        src: `${basePath}video/video-4.mp4`,
+    },
+    {
+        src: `${basePath}video/video-5.mp4`,
+    },
+    {
+        src: `${basePath}video/video-1.mp4`,
+    },
+    {
+        src: `${basePath}video/video-2.mp4`,
+    },
+    {
+        src: `${basePath}video/video-3.mp4`,
+    },
+]

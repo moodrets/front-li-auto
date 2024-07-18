@@ -1,10 +1,12 @@
 // styles
 import 'swiper/css/bundle'
+import 'baguettebox.js/dist/baguetteBox.min.css'
 import '@/styles/main.scss'
 
 // scripts
 import { initPartnersSlider, initReviewsSlider } from '@/scripts/initSliders'
 import { initScrollAnimate } from '@/scripts/initScrollAnimate'
+import { initGallery } from '@/scripts/initGallery'
 
 // vue imports
 import { createApp } from 'vue'
@@ -40,4 +42,5 @@ document.addEventListener('DOMContentLoaded', () => {
     initPartnersSlider()
     initReviewsSlider()
     initScrollAnimate()
+    initGallery()
 })

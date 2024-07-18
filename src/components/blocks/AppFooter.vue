@@ -4,7 +4,7 @@
             <div class="flex items-center justify-between mb-12 lg:mb-14">
                 <a href="#">
                     <img
-                        class="max-w-[140px] md:max-w-[184px]"
+                        class="max-w-[140px] md:max-w-[220px]"
                         :src="`${basePath}img/new-logo-footer.svg`"
                         alt=""
                     />

@@ -23,19 +23,19 @@
         <ul class="space-y-3 mb-4">
             <li class="mb-3 font-bold">Автомобили</li>
             <li v-for="(menuItem, menuItemIndex) in carList" :key="menuItemIndex">
-                <a href="#" class="decor-link">{{ menuItem.title }}</a>
+                <a href="#" class="font-medium decor-link">{{ menuItem.title }}</a>
             </li>
         </ul>
         <ul class="space-y-3 mb-4">
             <li class="mb-3 font-bold">Компания</li>
             <li v-for="(menuItem, menuItemIndex) in mainMenu" :key="menuItemIndex">
-                <a href="#" class="decor-link">{{ menuItem.title }}</a>
+                <a href="#" class="font-medium decor-link">{{ menuItem.title }}</a>
             </li>
         </ul>
         <ul class="space-y-3">
             <li class="mb-3 font-bold">Покупка</li>
             <li v-for="(menuItem, menuItemIndex) in otherMenu" :key="menuItemIndex">
-                <a href="#" class="decor-link">{{ menuItem.title }}</a>
+                <a href="#" class="font-medium decor-link">{{ menuItem.title }}</a>
             </li>
         </ul>
     </offcanvas>

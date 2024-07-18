@@ -12,7 +12,7 @@
             </a>
             <ul class="gap-5 text-[17px] leading-[1.5] hidden lg:flex">
                 <li v-for="(menuItem, menuItemIndex) in carList" :key="menuItemIndex">
-                    <a href="#" class="decor-link">{{ menuItem.title }}</a>
+                    <a href="#" class="font-medium decor-link">{{ menuItem.title }}</a>
                 </li>
             </ul>
             <div class="flex items-center gap-5" data-animated-block="fadeInLeft">

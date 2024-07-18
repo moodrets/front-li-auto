@@ -219,4 +219,104 @@
             новой версией.
         </div>
     </modal>
+    <modal name="configurator" class="app-modal--configurator">
+        <div class="shadow-lg py-5">
+            <div class="centered">
+                <div class="font-bold text-[20px] md:text-[24px]">Li L7</div>
+            </div>
+        </div>
+        <div class="centered flex-1 grid lg:grid-cols-2">
+            <div class="p-6 lg:p-10 self-center">
+                <img :src="`${basePath}img/conf-img.png`" alt="" />
+            </div>
+            <div class="p-6 lg:p-10 shadow-lg">
+                <div class="font-medium mb-8 text-[30px] lg:text-[36px]">Lixiang L7</div>
+                <div class="grid gap-5 mb-8 md:grid-cols-2">
+                    <div>
+                        <div class="mb-2 text-[16px] font-medium">К.П:</div>
+                        <div class="text-dark">Автомат</div>
+                    </div>
+                    <div>
+                        <div class="mb-2 text-[16px] font-medium">Колёса:</div>
+                        <div class="flex flex-wrap gap-4">
+                            <button
+                                type="button"
+                                class="app-button app-button--sm app-button--primary"
+                            >
+                                255/50 R20
+                            </button>
+                            <button
+                                type="button"
+                                class="app-button app-button--sm app-button--light"
+                            >
+                                255/50 R21
+                            </button>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="mb-2 text-[16px] font-medium">Топливо:</div>
+                        <div class="text-dark">Электричество</div>
+                    </div>
+                    <div>
+                        <div class="mb-2 text-[16px] font-medium">Батарея:</div>
+                        <div class="text-dark">Тройная литиевая</div>
+                    </div>
+                    <div>
+                        <div class="mb-2 text-[16px] font-medium">Разгон:</div>
+                        <div class="text-dark">6,4/100 km</div>
+                    </div>
+                    <div>
+                        <div class="mb-2 text-[16px] font-medium">Двигатель:</div>
+                        <div class="flex flex-wrap gap-4">
+                            <button
+                                type="button"
+                                class="app-button app-button--sm app-button--light"
+                            >
+                                280 л.с.
+                            </button>
+                            <button
+                                type="button"
+                                class="app-button app-button--sm app-button--primary"
+                            >
+                                449 л.с.
+                            </button>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="mb-2 text-[16px] font-medium">Привод:</div>
+                        <div class="text-dark">Полный</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="font-medium mb-8 text-[30px] lg:text-[36px]">Цвета</div>
+                    <div class="flex flex-wrap gap-5">
+                        <div
+                            class="cursor-pointer size-[48px] rounded-full border border-gray-400 lg:size-[72px]"
+                            style="background-color: #58715b"
+                        ></div>
+                        <div
+                            class="cursor-pointer size-[48px] rounded-full border border-gray-400 lg:size-[72px]"
+                            style="background-color: black"
+                        ></div>
+                        <div
+                            class="cursor-pointer size-[48px] rounded-full border border-gray-400 lg:size-[72px]"
+                            style="background-color: #5f5f5f"
+                        ></div>
+                        <div
+                            class="cursor-pointer size-[48px] rounded-full border border-gray-400 lg:size-[72px]"
+                        ></div>
+                    </div>
+                </div>
+                <div class="text-center mt-10">
+                    <button type="button" class="app-button app-button--secondary">
+                        Выбрать модель
+                    </button>
+                </div>
+            </div>
+        </div>
+    </modal>
 </template>
+
+<script setup lang="ts">
+import { basePath } from '@/data/common'
+</script>

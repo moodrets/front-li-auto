@@ -17,7 +17,12 @@
                             {{ model.title }}
                         </div>
                         <div>
-                            <a href="#" class="app-button app-button--light">Узнать больше</a>
+                            <a
+                                href="#"
+                                class="app-button app-button--light"
+                                v-modal-call="{ name: 'configurator' }"
+                                >Узнать больше</a
+                            >
                         </div>
                     </div>
                 </div>

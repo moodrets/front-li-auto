@@ -11,7 +11,7 @@
     >
         <div class="app-modal__body">
             <div class="app-modal__close" @click="onClose">
-                <div class="svg-icon md:w-8 md:h-8">
+                <div class="svg-icon w-6 h-6 md:w-8 md:h-8">
                     <svg><use xlink:href="#close"></use></svg>
                 </div>
             </div>
@@ -67,6 +67,8 @@ onUpdated(() => {
 
 <style lang="scss">
 .app-modal {
+    $this: &;
+
     @apply flex
         fixed
         z-[200]
@@ -90,8 +92,7 @@ onUpdated(() => {
             absolute
             right-4
             top-4
-            z-10
-            bg-white;
+            z-10;
 
         .svg-icon {
             @apply block;
@@ -118,6 +119,18 @@ onUpdated(() => {
 
         .app-modal__body {
             @apply translate-y-0;
+        }
+    }
+
+    &--configurator {
+        @apply p-0 lg:p-0 bg-white;
+
+        #{$this}__close {
+            @apply top-5;
+        }
+
+        #{$this}__body {
+            @apply translate-y-0 bg-transparent m-0 p-0 w-full rounded-none flex flex-col;
         }
     }
 }

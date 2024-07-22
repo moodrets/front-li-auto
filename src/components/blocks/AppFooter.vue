@@ -5,7 +5,7 @@
                 <a href="#">
                     <img
                         class="max-w-[140px] md:max-w-[220px]"
-                        :src="`${basePath}img/new-logo-footer.svg`"
+                        :src="`${basePath}img/footer-logo.svg`"
                         alt=""
                     />
                 </a>

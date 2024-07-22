@@ -6,7 +6,7 @@
             <a href="#" data-animated-block="fadeInRight">
                 <img
                     class="max-w-[140px] md:max-w-[220px]"
-                    :src="`${basePath}img/new-logo-header.svg`"
+                    :src="`${basePath}img/header-logo.svg`"
                     alt=""
                 />
             </a>

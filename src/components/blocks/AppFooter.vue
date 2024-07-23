@@ -32,7 +32,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="mt-10">
+                <div class="mt-10 lg:mt-0">
                     <div class="mb-4 text-[20px] font-bold">Мы держим вас в курсе</div>
                     <subscribeform class="md:w-[340px]"></subscribeform>
                 </div>

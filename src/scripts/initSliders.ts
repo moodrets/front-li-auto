@@ -1,5 +1,5 @@
 import Swiper from 'swiper'
-import { EffectCoverflow, Navigation, Pagination } from 'swiper/modules'
+import { Navigation, Pagination } from 'swiper/modules'
 
 export function initPartnersSlider() {
     const swiper = new Swiper('.js-partners-slider', {

@@ -30,6 +30,7 @@
 
 .slider-pagination {
     @apply flex 
+    flex-wrap
     justify-center 
     gap-3
     select-none

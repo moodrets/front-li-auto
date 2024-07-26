@@ -172,19 +172,4 @@ export const videoList = [
     {
         src: `${basePath}video/video-3.mp4`,
     },
-    {
-        src: `${basePath}video/video-4.mp4`,
-    },
-    {
-        src: `${basePath}video/video-5.mp4`,
-    },
-    {
-        src: `${basePath}video/video-1.mp4`,
-    },
-    {
-        src: `${basePath}video/video-2.mp4`,
-    },
-    {
-        src: `${basePath}video/video-3.mp4`,
-    },
 ]

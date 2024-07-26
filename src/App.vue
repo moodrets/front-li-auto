@@ -2,11 +2,13 @@
     <AppHeader></AppHeader>
     <div class="overflow-hidden">
         <MainBlock></MainBlock>
-        <VideoList></VideoList>
+        <!-- <VideoList></VideoList> -->
+        <VideoSlider></VideoSlider>
         <PresentBlock></PresentBlock>
         <Models></Models>
         <Partners></Partners>
-        <GalleryBlock></GalleryBlock>
+        <!-- <GalleryBlock></GalleryBlock> -->
+        <GallerySlider></GallerySlider>
         <Advantages></Advantages>
         <Reviews></Reviews>
         <CallbackFormBlock></CallbackFormBlock>
@@ -56,7 +58,9 @@ import Partners from '@/components/blocks/Partners.vue'
 import Reviews from '@/components/blocks/Reviews.vue'
 import Modals from '@/components/blocks/Modals.vue'
 import Models from '@/components/blocks/Models.vue'
-import GalleryBlock from '@/components/blocks/GalleryBlock.vue'
-import VideoList from '@/components/blocks/VideoList.vue'
+import GallerySlider from '@/components/blocks/GallerySlider.vue'
+import VideoSlider from '@/components/blocks/VideoSlider.vue'
+// import VideoList from '@/components/blocks/VideoList.vue'
+// import GalleryBlock from '@/components/blocks/GalleryBlock.vue'
 import { carList, mainMenu, otherMenu } from '@/data/common'
 </script>

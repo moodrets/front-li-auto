@@ -1,6 +1,6 @@
 <template>
     <header
-        class="app-header sticky z-[80] top-0 bg-white shadow-lg text-base py-5 md:py-6 lg:py-12 overflow-hidden"
+        class="app-header sticky z-[80] top-0 bg-white shadow-lg text-base py-5 md:py-6 overflow-hidden"
     >
         <div class="centered flex items-center justify-between">
             <a href="#" data-animated-block="fadeInRight">

@@ -4,7 +4,12 @@ import 'baguettebox.js/dist/baguetteBox.min.css'
 import '@/styles/main.scss'
 
 // scripts
-import { initPartnersSlider, initReviewsSlider } from '@/scripts/initSliders'
+import {
+    initGallerySlider,
+    initPartnersSlider,
+    initReviewsSlider,
+    initVideoSlider,
+} from '@/scripts/initSliders'
 import { initScrollAnimate } from '@/scripts/initScrollAnimate'
 import { initGallery } from '@/scripts/initGallery'
 
@@ -42,5 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initPartnersSlider()
     initReviewsSlider()
     initScrollAnimate()
+    initGallerySlider()
+    initVideoSlider()
     initGallery()
 })
